@@ -23,6 +23,7 @@ body {
     text-align: center;
     max-width: 520px;
     align-items: center;
+    margin: 0px auto;
 }
 
 .header span {
@@ -47,7 +48,7 @@ h1 {
     padding-bottom: 35px;
 }
 
-/* Bagian Cards */
+/* Cards Section */
 
 .cards {
     display: flex;
@@ -88,12 +89,12 @@ h1 {
     box-shadow: 0 0 10px rgba(84, 158, 242, .2);
 }
 
-.supervisor, .center-box, .calculator {
-    flex-basis: 32%;
-}
+/* .calculator {
+    flex-wrap: wrap;
+} */
 
-.supervisor, .calculator {
-    align-self: center;
+.team, .karma {
+    align-items: center;
 }
 
 .supervisor {
