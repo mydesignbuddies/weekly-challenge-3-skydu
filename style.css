@@ -1,0 +1,123 @@
+/* Desktop Version */
+
+:root {
+    --red: #ea5353;
+    --cyan: #45d3d3;
+    --orange: #fcaf4a;
+    --blue: #549ef2;
+    --very-dark-blue: #4c4e61;
+    --grayish-blue: #a3a5ae;
+    --very-light-gray: #fafafa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+main {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    text-align: center;
+    max-width: 520px;
+}
+
+.header span {
+    font-style: normal;
+    color: hsl(240, 5%, 29%);
+    font-weight: 200;
+    font-size: 36px;
+}
+
+h1 {
+    font-style: normal;
+    color: #525563;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.header p {
+    column-count: 2;
+    column-width: 350px;
+    width: 1110px;
+    color: #A3A5AE;
+    padding-bottom: 35px;
+}
+
+/* Bagian Cards */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards h3 {
+    color: #898897;
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 15px;
+}
+
+.cards p {
+    color: #898897;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.image {
+    float: right;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(84, 158, 242, .2);
+    border-radius: 5px;
+    margin-top: 24px;
+    padding: 24px;
+    width: 352px;
+    height: 256px;
+    cursor: pointer;
+}
+
+.card:active {
+    position: relative;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(84, 158, 242, .2);
+}
+
+.supervisor, .center-box, .calculator {
+    flex-basis: 32%;
+}
+
+.supervisor, .calculator {
+    align-self: center;
+}
+
+.supervisor {
+    border-top: 5px solid #45d3d3;
+}
+
+.team {
+    border-top: 5px solid #ea5353;
+}
+
+.karma {
+    border-top: 5px solid #fcaf4a;
+}
+
+.calculator {
+    border-top: 5px solid #549ef2;
+}
