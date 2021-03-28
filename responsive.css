@@ -1,21 +1,23 @@
-@media screen and (max-width: 375px){
-    .header h1{
-        font-size: 25px;
+@media screen and (max-width: 1280px) {
+    .header h1 {
+        font-size: 35px;
+    }
+    .header span {
+        font-size: 35px;
     }
     .header p {
-        column-count: 2;
-        column-width: 350px;
-        width: 1110px;
+        width: 372px;
+        height: 81px;
+        margin: 0 auto;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
         color: #A3A5AE;
-        padding-bottom: 20px;
     }
-
-
-    main{
-        height: 600px;
-    }
-
-    .container{
+    .container {
         position: absolute;
         display: flex;
         flex-wrap: wrap;
@@ -23,24 +25,20 @@
         justify-content: center;
         align-items: center;
     }
-
-    /* cards section */
-    .cards{
+    /* Cards Section */
+    .cards {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: flex-end;
     }
-
-    .supervisor, 
-    .center-box, 
-    .calculator{
+    .supervisor, .center-box, .calculator {
         flex-basis: 32%;
     }
-    
-    .supervisor,
-    .calculator{
+    .supervisor, .calculator {
         align-self: center;
     }
-
+    /* footer {
+        font-size: 20px;
+        text-align: center;
+    } */
 }
