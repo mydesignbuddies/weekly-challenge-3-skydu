@@ -1,5 +1,4 @@
 /* Desktop Version */
-
 :root {
     --red: #ea5353;
     --cyan: #45d3d3;
@@ -53,7 +52,6 @@ h1 {
 .cards {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }    
 
 .cards h3 {
@@ -73,23 +71,22 @@ h1 {
     float: right;
 }
 
-.card {
+section {
     background-color: white;
     box-shadow: 0 10px 10px rgba(84, 158, 242, .2);
     border-radius: 5px;
-    margin-top: 24px;
+    margin: 25px 32px 0px 32px;
     padding: 24px;
     width: 352px;
     height: 256px;
     cursor: pointer;
 }
 
-.card:active {
+section:active {
     position: relative;
     top: 10px;
     box-shadow: 0 0 10px rgba(84, 158, 242, .2);
 }
-
 
 .supervisor {
     border-top: 5px solid #45d3d3;
