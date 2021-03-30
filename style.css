@@ -51,7 +51,7 @@ h1 {
 
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }    
 
 .cards h3 {
