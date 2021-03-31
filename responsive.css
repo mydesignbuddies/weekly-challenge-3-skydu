@@ -20,19 +20,19 @@
     
     /* Cards Section */
     
-.cards {
+.flex {
     display: flex;
     flex-direction: column;
 }    
 
-.cards h3 {
+.flex h3 {
     color: #898897;
     font-weight: 600;
     font-size: 20px;
     bottom: 15px;
 }
 
-.cards p {
+.flex p {
     color: #898897;
     font-weight: 200;
     font-size: 12px;
