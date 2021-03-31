@@ -23,24 +23,30 @@
 .flex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }    
+
+.supervisor, .team, .karma, .calculator {
+    width: 350px;
+    height: 255px;
+}
 
 .flex h3 {
     color: #898897;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     bottom: 15px;
 }
 
 .flex p {
     color: #898897;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .image {
     float: right;
-    padding-bottom: 15px;
+    margin-top: 50px;
 }
 
 section {
